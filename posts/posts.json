@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "why-gesture-fail",
+    "title": "Why 90% of Gesture-Control Projects Feel Bad to Use — and Where They Die on the Way to Wearable",
+    "file": "posts/why-gesture-fail.md",
+    "date": "2026-02-01",
+    "author": "Alex Chen",
+    "description": "An analysis of why most gesture-control systems fail in real-world use and the common pitfalls in wearable tech development.",
+    "tags": "engineering, ux, wearables, hardware"
+  },
+  {
+    "slug": "getting-started-with-static-blogs",
+    "title": "Building a Professional Static Blog: Why Simplicity Wins",
+    "file": "posts/getting-started.md",
+    "date": "2026-01-15",
+    "author": "Taylor Morgan",
+    "description": "A guide to building fast, secure, and maintainable static blogs that outperform dynamic alternatives.",
+    "tags": "webdev, blogging, performance, javascript"
+  }
+]
