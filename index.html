@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Notes — Technical Blog</title>
+  <meta name="description" content="Technical blog — lightweight, dark, glass UI, markdown-driven." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <header class="site-header">
+        <a id="site-title" href="#" data-slug="">notes</a>
+        <button id="toggle-list" aria-label="Toggle posts list">☰</button>
+      </header>
+
+      <section id="post-list" class="list"></section>
+
+      <footer class="sidebar-footer">
+        <small>Static • Dark • Minimal</small>
+      </footer>
+    </aside>
+
+    <main id="content">
+      <article id="post">
+        <header id="post-meta">
+          <h1 id="post-title">Loading…</h1>
+          <div id="post-submeta" class="submeta"></div>
+        </header>
+
+        <section id="post-body" class="prose"></section>
+
+        <nav id="post-actions" class="post-actions">
+          <button id="open-raw">Open raw</button>
+          <button id="copy-link">Copy link</button>
+        </nav>
+      </article>
+    </main>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
+
